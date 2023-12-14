@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Verify</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-left: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Hi there!!! <%= userName.toUpperCase() %></h1>
+    <h2>
+      You have registered on our web platform with <br />
+      <%= email %>
+    </h2>
+    <p>
+      We are really pleased to have you on our platform we hope that you enjoy
+      unlimited services,<br />
+      purchase your perferred goods and services that we had to offer. And as
+      well as getting great <br />
+      feedbacks from you.
+    </p>
+    <p>You can continue by clicking on this link to verify:</p>
+    <a href="<%= url %>"><%= url %></a>
+
+    <p>Once Again... Happy Verification</p>
+  </body>
+</html>
